@@ -32,6 +32,14 @@
     
     // 2 - Alterar Menu 2 para Item 2 através da Tag
 item1[1].innerHTML = "Item 2";
+
+// 3 - Inserir parênteses nos comandos da classe comandos
+let comandos = document.getElementsByClassName("comandos");
+
+for (let i = 0; i < comandos.length; i++) {
+    comandos[i].innerHTML += "()";
+}
+
   </script>
 </body>
 </html>
